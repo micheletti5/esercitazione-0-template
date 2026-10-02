@@ -1,12 +1,19 @@
 # Osservazioni — Esercitazione 0
 
-Gruppo:
+Gruppo: C-11
 
 Componenti (nome, cognome e username GitHub di entrambi):
 
+	   	  Nicole Micheletti micheletti5;
+		  MariaGloria Morabito mariagloria-hub.
+
 URL del repository condiviso:
 
+    	https://github.com/micheletti5/esercitazione-0-template.git
+
 Chi ha usato la tastiera nello step 1 e nello step 2:
+
+       abbiamo lavorato da due computer separati.
 
 Compilate insieme le osservazioni e discutete le risposte: entrambi dovete
 saper spiegare le prove svolte.
@@ -15,13 +22,30 @@ saper spiegare le prove svolte.
 
 Comando di compilazione:
 
+	   gcc -std=c17 -Wall -Wextra -Wpedantic hello.c -o hello
+
 Comando di esecuzione e risultato osservato:
+
+	   ./hello
+	   
+	   risultato: stampa sul terminale di "Hello, computational physics!"
 
 Che cosa ho capito su sorgente ed eseguibile:
 
+hello.c è il file sorgente mentre hello è l'eseguibile. Se modifico il messaggio da sorgente e avvio l'eseguibile senza ricompilare, dal terminale osserverò ancora il messaggio scritto nel sorgente prima della modifica. 
+
 Output richiesto e comportamento del programma prima della modifica:
 
+L'output richiesto inizialmente è "Hello, computational physics!" da far stampare sul terminale.
+Prima della modifica, tramite printf, richiedo al programma di stampare la frase richiesta e avvio l'eseguibile affinché avvengna la stampa
+ 
+
 Esito dopo la modifica e spiegazione della correzione:
+
+Dopo la modifica, avviando nuovamente l'eseguibile senza ricompilare il programma stampa ancora la vecchia richiesta. Nel momento in cui ricompilo e avvio hello viene stampato il nuovo messaggio(nel mio caso cambiato in "modifico messaggio!".
+
+Viene richiesto inoltre di reindirizzare l'output avviando l'eseguibile e aggiungendo > output.txt.
+Ciò che si può osservare esguendo ciò è che sul terminale non viene stampato più nulla ma viene creato un file di testo con scritta la stampa richiesta.
 
 ## Step 1 — Git
 
