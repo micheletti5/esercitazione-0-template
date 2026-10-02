@@ -49,13 +49,18 @@ Ciò che si può osservare esguendo ciò è che sul terminale non viene stampato
 
 ## Step 1 — Git
 
-commit verificato da app confrontando con la stampa dal comando git log --online -5.
-
 Quali file ho incluso nel commit e perché:
+
+Ho incluso hello.c e osservazioni.md. li ho inclusi per salvare dove è stata fatta la modifica.
 
 Come ho verificato che la versione provata sia presente su GitHub:
 
+Ho verificato che la versione provata sia presente su github aprendo la sezione commit dal sito e valutando che fosse lo stesso contenuto che si vede tramite comando git log --oneline -5.
+
 Che cosa ho osservato prima e dopo `git pull`, e perché non serve un nuovo clone:
+Prima di 'git pull' ho osservato che la modifica fatta da github non era pesente nel file osservazioni.md; dopo 'git pull', aprendo il file locale, ho notato che la modifica era presente.
+
+Non è necessario un nuovo clone poiché il file locale è già salvato e noi vogliamo solo salvare le modifiche senza clonare nuovamente tutta la repository.
 
 ## Step 2 — Eco: prima prova
 
