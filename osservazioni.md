@@ -49,6 +49,8 @@ Ciò che si può osservare esguendo ciò è che sul terminale non viene stampato
 
 ## Step 1 — Git
 
+commit verificato da app confrontando con la stampa dal comando git log --online -5.
+
 Quali file ho incluso nel commit e perché:
 
 Come ho verificato che la versione provata sia presente su GitHub:
