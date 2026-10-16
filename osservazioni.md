@@ -66,7 +66,17 @@ Non è necessario un nuovo clone poiché il file locale è già salvato e noi vo
 
 Argomenti passati, comando e risultato:
 
+Abbiamo passato come argomenti una stringa, un numero intero e un numero reale;
+il comando utiilizzato è stato: ./eco ciao 12 3.5
+il risultato è stato:
+   ciao 12 3.500000
+
 Che cosa posso concludere:
+Usando sia atof e atoi che le funzioni leggi_intero e leggi_reale per convertire in numeri (rispettivamente reali e interi) usando questo comando viene stampato sul terminale il risultato richiesto.
+
+Reindirizzando l'output aggiungendo il comando > eco.txt viene scritta la richiesta in questo file, senza però stamparlo su schermo.
+
+per controllare la correttezza del risultato usando echo $? viene stampato il numero 0, che riporta quindi la correttezza di ciò che è stato fatto.
 
 ## Step 2 — Eco: seconda prova
 
